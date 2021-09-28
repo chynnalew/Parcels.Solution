@@ -14,5 +14,10 @@ namespace Parcels.Models
       Length = length;
       Weight = weight;
     }
+    public int Volume()
+    {
+      int volume = this.Height * this.Width * this.Length;
+      return volume;
+    }
   }
 }

@@ -36,5 +36,11 @@ namespace Parcels.Tests
       Parcel testParcel = new Parcel(2, 3, 4, 5);
       Assert.AreEqual(5, testParcel.Weight);
     }
+    [TestMethod]
+    public void Volume_ReturnsVolumeOfTestParcel_True()
+    {
+      Parcel testParcel = new Parcel(2, 3, 4, 5);
+      Assert.AreEqual(24, testParcel.Volume());
+    }
   }
 }
