@@ -1,4 +1,4 @@
-namespace FileName.Models
+namespace Parcels.Models
 {
   public class NameThis
   {

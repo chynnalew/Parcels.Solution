@@ -1,8 +1,8 @@
-# Name of Project
+# Parcels
 
-#### short description of the app
+#### A C# browser application that give the user shipping rates for a fake company
 
-#### Created By: Name
+#### Created By: Chynna Lew
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-Detailed description
+This application was created to practice ASP.NET Core MVC browser app creation. The app helps the user calculate shipping estimates. The application uses a parcel class to calculate the cost of shipping. 
 
 ## Setup and Usage Instructions
 
@@ -26,12 +26,17 @@ Detailed description
 ### Installation
 
 * Clone [this](github.com/yourName/repoName) repository, or download and open the Zip on your local machine
-* Open the FOLDER NAME folder in your preferred text editor
+* Open the Parcels.Solution folder in your preferred text editor
+* To run the tests:
+  - Navigate to the Parcels.Solution/Parcels.tests folder in the command line or terminal 
+    -- Run the command "$ dotnet restore" to restore the test project dependencies
+    -- Run the command "$ dotnet build" to build and compile the test project
+  - In the terminal (navigated to the Parcels.Solution/Parcels.tests folder) run the command "$ dotnet test"
 * Restore and build the project:
-  - Navigate to the FileName.Solutions/FileName folder in the command line or terminal 
+  - Navigate to the Parcels.Solutions/Parcels folder in the command line or terminal 
     -- Run the command "$ dotnet restore" to restore the project dependencies
     -- Run the command "$ dotnet build" to build and compile the project
-    -- Run the command "$ dotnet run" to build and compile the project
+    -- Run the command "$ dotnet run" to to start the program
 
 ## Known Bugs
 
@@ -40,9 +45,9 @@ Detailed description
 ### License
 
 [MIT License](https://opensource.org/licenses/MIT)
-Copyright 2021 Name
+Copyright 2021 Chynna Lew
 
 ## Support and contact details
 
-* [Name](github.com/yourGitHub) 
-* <email@email.com>
+* [Chynna Lew](github.com/chynnalew) 
+* <ChynnaLew@yahoo.com>
