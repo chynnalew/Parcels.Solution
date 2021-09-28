@@ -1,9 +1,10 @@
 namespace Parcels.Models
 {
-  public class NameThis
+  public class Parcel
   {
-    // add constructors here!
-    // ex:
-    // public string Recipient {get; set;}
+    public Parcel()
+    {
+      
+    }
   }
 }

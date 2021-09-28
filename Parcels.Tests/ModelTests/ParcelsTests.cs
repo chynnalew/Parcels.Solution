@@ -1,15 +1,16 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using File.Models;
+using Parcels.Models;
 
-namespace File.Tests
+namespace Parcels.Tests
 {
   [TestClass]
-  public class ItemTests
+  public class ParcelTests
   {
     [TestMethod]
-    public void NameOfMethod_DescribeBehavior_ExpectedResult()
+    public void Parcel_CreateNewInstanceOfParcel_True()
     {
-
+      Parcel newParcel = new Parcel();
+      Assert.AreEqual(typeof(Parcel), newParcel.GetType());
     }
 
   }

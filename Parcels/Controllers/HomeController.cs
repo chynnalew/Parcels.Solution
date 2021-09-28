@@ -6,7 +6,10 @@ namespace Parcels.Controllers
   public class HomeController : Controller
   {
     [Route("/")]
-    public ActionResult HomePage() { return View(); }
+    public ActionResult HomePage() 
+    { 
+      return View(); 
+    }
 
     // add additional paths with the format:
   
